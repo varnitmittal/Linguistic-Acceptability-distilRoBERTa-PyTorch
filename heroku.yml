@@ -1,0 +1,5 @@
+build:
+  docker:
+    web: Dockerfile
+#run:
+#  web: gunicorn -b 0.0.0.0:8000 --timeout=180 --worker-class=gevent --worker-connections=3 --workers=1 api:app
